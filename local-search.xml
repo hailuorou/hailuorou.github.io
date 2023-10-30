@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Conda常用命令</title>
+    <link href="/2023/10/27/Conda%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <url>/2023/10/27/Conda%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<h2 id="1-获取版本号-帮助"><a href="#1-获取版本号-帮助" class="headerlink" title="1. 获取版本号&#x2F;帮助"></a>1. 获取版本号&#x2F;帮助</h2><table><thead><tr><th>名称</th><th>操作</th></tr></thead><tbody><tr><td>获取版本号</td><td>conda -V</td></tr><tr><td></td><td>conda -version</td></tr><tr><td>获取帮助</td><td>conda -h</td></tr><tr><td></td><td>conda -help</td></tr><tr><td>获取环境相关命令帮助</td><td>conda env -h</td></tr><tr><td></td><td></td></tr></tbody></table><h2 id="2-环境相关"><a href="#2-环境相关" class="headerlink" title="2. 环境相关"></a>2. 环境相关</h2><table><thead><tr><th>名称</th><th>命令</th></tr></thead><tbody><tr><td>创建环境</td><td>conda create -n environment_name</td></tr><tr><td>创建指定python版本下包含某些包的环境</td><td>conda create-n environment_name python&#x3D;3.7 numpy scipy</td></tr><tr><td>进入环境</td><td>conda activate environment_name</td></tr><tr><td>退出环境</td><td>conda deactivate</td></tr><tr><td>删除环境</td><td>conda remove -n environment_name –all</td></tr><tr><td>列出环境</td><td>conda env list</td></tr><tr><td>复试环境</td><td>conda create–nmae new_env_nmae –clone old_env_name</td></tr><tr><td>指定目录下生成环境yml文件</td><td>conda env export &gt; 目录&#x2F;environment.yml</td></tr><tr><td>从yml文件创建环境</td><td>conda env create -n env_name -f environment.yml</td></tr><tr><td></td><td></td></tr></tbody></table><h2 id="3-管理包"><a href="#3-管理包" class="headerlink" title="3.管理包"></a>3.管理包</h2><table><thead><tr><th>名称</th><th>命令</th></tr></thead><tbody><tr><td>安装包</td><td>conda install package_name</td></tr><tr><td>查看当前环境包列表</td><td>conda list</td></tr><tr><td>查看指定环境包列表</td><td>conda list -n environment_name</td></tr><tr><td>查看conda源中包的信息</td><td>conda search package_name</td></tr><tr><td>更新包</td><td>conda update package_name</td></tr><tr><td>删除包</td><td>conda remove package_name</td></tr><tr><td>清理无用安装包</td><td>conda clean -p</td></tr><tr><td>清理tar包</td><td>conda clean -t</td></tr><tr><td>清理所有安装包及cache</td><td>conda clean -y –all</td></tr><tr><td>更新anaconda</td><td>conda update anaconda</td></tr><tr><td></td><td></td></tr></tbody></table><h2 id="4-更换conda源"><a href="#4-更换conda源" class="headerlink" title="4.更换conda源"></a>4.更换conda源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">conda config --add channels url<br></code></pre></td></tr></table></figure><h2 id="5-显示现有安装源"><a href="#5-显示现有安装源" class="headerlink" title="5.显示现有安装源"></a>5.显示现有安装源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">conda config --show channels<br></code></pre></td></tr></table></figure><h2 id="6-恢复默认源"><a href="#6-恢复默认源" class="headerlink" title="6.恢复默认源"></a>6.恢复默认源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">conda config --remove-key channels<br></code></pre></td></tr></table></figure><h2 id="7-移除某个源"><a href="#7-移除某个源" class="headerlink" title="7.移除某个源"></a>7.移除某个源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">conda config --remove channels url<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>技能学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>conda</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
