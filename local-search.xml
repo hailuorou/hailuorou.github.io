@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Hello My Blog</title>
+    <link href="/2023/10/30/My%20Blog/"/>
+    <url>/2023/10/30/My%20Blog/</url>
+    
+    <content type="html"><![CDATA[<p>本博客参考 <a href="https://hexo.fluid-dev.com/docs/start/">Hexo Fluid 用户指南</a> 下完成。主要基于 Hexo + GitHub 搭建，采用 Fluid 主题。</p><h2 id="搭建历程"><a href="#搭建历程" class="headerlink" title="搭建历程"></a>搭建历程</h2><h2 id="hexo-命令"><a href="#hexo-命令" class="headerlink" title="hexo 命令"></a>hexo 命令</h2><p><strong>新建文章</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">exo n <span class="hljs-string">&quot;My New Post&quot;</span> <span class="hljs-comment"># new</span><br></code></pre></td></tr></table></figure><p><strong>清除本地缓存</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo cl  <span class="hljs-comment">#clean</span><br></code></pre></td></tr></table></figure><p><strong>生成静态文章</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g <span class="hljs-comment"># generate</span><br></code></pre></td></tr></table></figure><p><strong>阅览文章</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo s <span class="hljs-comment"># show</span><br></code></pre></td></tr></table></figure><p><strong>部署推送到github</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo d <span class="hljs-comment"># deploy</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>技能学习</category>
+      
+      <category>博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Conda常用命令</title>
     <link href="/2023/10/27/Conda%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <url>/2023/10/27/Conda%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
